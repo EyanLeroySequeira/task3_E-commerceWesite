@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+</head>
+
+<body>
+    <header>
+        <div id=header class="nav">
+            <div id="shopname">
+                <a href=""><strong>NEXGEN Electronics</strong></a>
+            </div>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent"
+                aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i id="bar" class="fa fa-bars" aria-hidden="true"></i></span>
+            </button> -->
+            <div id="shopmenu">
+                <a href="index.html">Home</a>
+                <a href="shopping.html">shop</a>
+            </div>
+            <div id="search">
+                <input type="text" placeholder="Search">
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                <a href="cart"><i class="fa fa-shopping-basket" aria-hidden="true"></i> </a>
+            </div>
+        </div>
+    </header>
+    <div id="home">
+
+
+        <section>
+            <div id="slider" class="slider">
+                <div class="innerslider"><img src="Images\img1.png" alt="image1"></div>
+            <div class="innerslider"><img src="Images\img2.png" alt="image1"></div>
+            <div class="innerslider"><img src="Images\img3.png" alt="image1"></div>
+            <div class="innerslider"><img src="Images\img4.png" alt="image1"></div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+
+        $('#slider').slick({
+            // dots: true,
+            infinite: true,
+            // slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            arrows: false,
+            autoplaySpeed: 2000,
+        });
+
+    </script>
+
+
+    <div class="container col-8">
+        <h2 style="text-align:center;text-shadow: 2px 2px 2px lightseagreen;">Our Latest Products </h2>
+        <div class="latestitems" id="latestitems">
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT1dluE3Vacsmkq5uPoyw3t6SjMtFKbiitSl_00P1d0qcXCdafYkutd17P9UG_zm8kOQFruOI9HWV4o1JSFgGQ3m-cd5zKMoR8ONuItUkk&usqp=CAE"
+                    alt="">
+                </div>
+                <div class="card-body">
+                    <h4>HRX </h4>
+                    <p>Rs. 1600</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT69zAL7ocIteSzuGL5HL38uwggPK1ZMgVSeyfFaik54T7NToUWUz1HswdTQM3yJCKVX-OteislLGaYLMeSSOQfD3IPcdZOX7mx1yctQBeQ1qGNMfWODGmKi00&usqp=CAE"
+                        alt="">
+                </div>
+                <div class="card-body">
+
+                    <h4>Nike </h4>
+                    <p>Rs. 3800</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTHpqxUuisIC46sw-NRNLQ3MEZ4l-UVkxDLD9G4FkKfo0IWfMzEsyCnaFpoY2tgKhUyprC7lmNt6KoIqjpGGoo_DI7ATnQS1iKZteIMXsgRAQo3cb1JXRpKkA&usqp=CAE"
+                        alt="">
+                    </div>
+                    <div class="card-body">
+                        
+                    <h4>Campus </h4>
+                    <p>Rs. 1200</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    
+
+    <footer>
+
+        <div id="containerFooter">
+
+            <div id="webFooter">
+                <h3> online store </h3>
+                <p> men clothing </p>
+                <p> women clothing </p>
+                <p> men accessories </p>
+                <p> women accessories </p>
+            </div>
+            <div id="webFooter">
+                <h3> helpful link </h3>
+                <p> home </p>
+                <p> about </p>
+                <p> contact </p>
+            </div>
+            <div id="webFooter">
+                <h3> partners </h3>
+                <p> pantaloons </p>
+                <p> levis </p>
+                <p> ucb </p>
+                <p> + many more </p>
+            </div>
+            <div id="webFooter">
+                <h3> address </h3>
+                <p> ABC company </p>
+                <p> central Market </p>
+                <p> pin:32126711</p>
+                <p> India </p>
+            </div>
+        </div>
+
+
+
+
+        <div id="credit"><a href="#"> © EN</a> &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp <a href="#" target="_blank"> EN_Brand
+            </a></div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
